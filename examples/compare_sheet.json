@@ -1,0 +1,19 @@
+{
+  "title": "Example Comparison",
+  "subtitle": "Made-up sample to show the format. Prices are placeholders.",
+  "tabs": [
+    {
+      "name": "Getting there",
+      "intro": "Three ways from City A to City B, for two people.",
+      "columns": [["Option", 18], ["Time", 12], ["Price for two", 14], ["Notes", 50]],
+      "money": [2],
+      "group": 0,
+      "colors": {"Flight": "DDEBF7", "Bus": "E2EFDA", "Private car": "FFF2CC"},
+      "rows": [
+        ["Flight", "1 h", 180, "Fastest, plus airport time both ends"],
+        ["Bus", "6 h", 40, "Cheapest, daytime only"],
+        ["Private car", "5 h", null, "Price not found yet"]
+      ]
+    }
+  ]
+}

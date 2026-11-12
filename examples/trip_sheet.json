@@ -1,0 +1,27 @@
+{
+  "title": "Example Trip: Hanoi Long Weekend",
+  "subtitle": "Made-up sample to show the format. Prices are placeholders.",
+  "travelers": 2,
+  "sections": {
+    "travel": {"label": "Travel day", "color": "DDEBF7"},
+    "stay": {"label": "In town", "color": "FFFFFF"},
+    "trip": {"label": "Day trip", "color": "E2EFDA"}
+  },
+  "rows": [
+    {"date": "Fri Mar 5", "sleep": "Old Quarter hotel", "plan": "Fly in, check in, street food walk", "how": "Flight", "leaves": "9:00 AM", "arrives": "11:10 AM", "price": 60, "per": "person", "booked": "No", "section": "travel", "source": "Placeholder fare"},
+    {"date": "Sat Mar 6", "sleep": "Old Quarter hotel", "plan": "Ha Long Bay day cruise", "how": "Tour bus", "price": 45, "per": "person", "booked": "No", "section": "trip"},
+    {"date": "Sun Mar 7", "sleep": "Old Quarter hotel", "plan": "Work from a cafe, Hoan Kiem Lake at night", "price": null, "per": "", "booked": "Not needed", "section": "stay"},
+    {"date": "Fri Mar 5 to Mon Mar 8", "sleep": "Old Quarter hotel", "plan": "3 nights", "price": 150, "per": "stay", "booked": "No", "section": "stay", "notes": "Ask for a WiFi speed test before booking"},
+    {"date": "Mon Mar 8", "sleep": "Home", "plan": "Fly out", "how": "Flight", "leaves": "6:00 PM", "arrives": "8:10 PM", "price": 60, "per": "person", "booked": "No", "section": "travel"}
+  ],
+  "total_note": "Blank prices are not known yet, never guessed.",
+  "checklist": [
+    {"group": "Before you go", "items": [
+      {"item": "Check passport has 6+ months left", "when": "2 weeks before"},
+      {"item": "Get an eSIM or local SIM plan", "when": "1 week before"}
+    ]},
+    {"group": "On arrival", "items": [
+      {"item": "Test the room WiFi", "when": "Day 1", "notes": "fast.com, upload speed matters for calls"}
+    ]}
+  ]
+}
